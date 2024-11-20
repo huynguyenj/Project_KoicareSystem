@@ -41,8 +41,8 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity    .cors(cors->cors.configurationSource(corsConfigurationSource()))
-                .authorizeHttpRequests(request -> request
+        httpSecurity .cors(cors->cors.configurationSource(corsConfigurationSource()))
+                     .authorizeHttpRequests(request -> request
                         .requestMatchers(PUBLIC_ENDPOINTS).permitAll()
 //                        .requestMatchers(HttpMethod.GET, ADMIN_ENDPOINTS).hasAuthority("ROLE_ADMIN")
                         .anyRequest()

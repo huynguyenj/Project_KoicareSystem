@@ -54,5 +54,5 @@ public class User {
     private List<Transaction> transactions;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
-    private Set<OrderDetail> orderDetails; // Relationship with OrderDetail
+    private Set<OrderDetail> orderDetails;
 }
