@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex img {
+    max-width: 265px;
+    height: auto;
+    margin: 10px;
+}
+
+.d-flex p {
+    max-width: 300px;
+    text-align: center;
+    font-family: "JetBrains Mono";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin: 0;
+}

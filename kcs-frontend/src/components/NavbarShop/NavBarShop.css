@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Căn giữa các phần tử */
+  background-color: #4a90e2; /* Màu nền thanh navbar */
+  padding: 20px 30px; /* Padding cho thanh navbar */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px; /* Kích thước logo */
+  height: auto; /* Giữ tỷ lệ của logo */
+  margin-left: 20px; /* Khoảng cách giữa logo và tên thương hiệu */
+}
+
+.navbar-menu {
+  list-style: none; /* Xóa dấu chấm từ danh sách */
+  display: flex; /* Hiển thị menu theo hàng ngang */
+  gap: 40px; /* Khoảng cách giữa các mục menu */
+  font-size: 20px;
+}
+
+.navbar-item-text {
+  color: white; /* Màu chữ cho mục menu */
+  cursor: pointer; /* Con trỏ chuột khi hover */
+  transition: color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+  padding-top: 15px;
+}
+
+.navbar-item-text:hover {
+  color: #ffeb3b; /* Màu chữ khi hover */
+}
+
+.user-info {
+  display: flex; /* Sắp xếp ảnh đại diện và tên người dùng theo hàng ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.profile-image {
+  width: 50px; /* Kích thước ảnh đại diện */
+  height: 50px; /* Kích thước ảnh đại diện */
+  border-radius: 50%; /* Để ảnh đại diện có hình tròn */
+  margin-right: 20px; /* Khoảng cách giữa ảnh đại diện và tên người dùng */
+  margin-bottom: -10px;
+}
+
+.username {
+  color: white; /* Màu chữ cho tên người dùng */
+  font-weight: bold; /* Định dạng chữ đậm cho tên người dùng */
+  margin-right: 30px;
+  margin-top: 15px;
+}

@@ -1,0 +1,33 @@
+import React, { useEffect, useState } from 'react'
+import { getAllProductInShop } from '../../../api/product'
+import { Paper, TableContainer } from '@mui/material'
+
+function ShowProducts() {
+  const [products,setProducts] = useState([])
+  const [displayProducts,setDisplayProducts] = useState([])
+  const [query,set]
+  useEffect(()=>{
+    getProducts();
+  },[])
+  
+  const getProducts = async ()=>{
+    try {
+      const res = await getAllProductInShop()
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  const handleSearch = () =>{
+
+  }
+  return (
+    <>
+      <TableContainer component={Paper} sx={{mt:5}}>
+
+      </TableContainer>
+    </>
+  )
+}
+
+export default ShowProducts

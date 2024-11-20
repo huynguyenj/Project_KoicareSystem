@@ -1,0 +1,70 @@
+/* .Revenue-container {
+    font-family: Arial, sans-serif;
+}
+
+.filter-bar {
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.filter-bar label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.filter-bar input[type="date"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.revenue-section {
+    margin-bottom: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+
+.revenue-header {
+    background-color: #f3e9dc;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
+.revenue-content {
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.revenue-chart {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.revenue-header span:last-child {
+    font-size: 18px;
+}
+
+.revenue-header:hover {
+    background-color: #e0d1b3;
+} */

@@ -1,0 +1,19 @@
+/* App.css */
+
+/* Root container to take full viewport height */
+.app-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 140vh;
+    }
+    
+    /* Content area to push the footer down
+    .content-wrapper {
+      flex: 1;
+    } */
+    
+    /* Ensures footer is pinned at the bottom when content is short */
+    .footer {
+      width: 100%;
+    }
+    
